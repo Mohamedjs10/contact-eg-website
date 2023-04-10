@@ -1,0 +1,155 @@
+/* @font-face {
+  font-family: "GE_SS_Light";
+  src: url("../../public/fonts/GE_SS_Two_Light.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GE_SS_Bold";
+  src: url("../../public/fonts/GE-SS-Two-Bold.otf");
+  font-weight: bold;
+  font-style: normal;
+} */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  /* font-family: GE_SS_Light !important; */
+  font-family: Almarai !important;
+}
+
+html,
+body {
+  /* max-width: 100vw; */
+  /* overflow: hidden; */
+}
+
+.horizontal-safe-margin {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+.horizontal-safe-padding {
+  padding-right: 100px;
+  padding-left: 100px;
+}
+.vertical-safe-margin {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.vertical-safe-padding {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+/* .vertical-safe-padding {
+  padding-top: 20px;
+  padding-bottom: 20px;
+} */
+.section-safe-padding-top {
+  padding-top: 20px;
+}
+.section-safe-padding-bottom {
+  padding-bottom: 20px;
+}
+.section-safe-padding-left {
+  padding-left: 100px;
+}
+.section-safe-padding-right {
+  padding-right: 100px;
+}
+.section-safe-margin-top {
+  margin-top: 20px;
+}
+.section-safe-margin-bottom {
+  margin-bottom: 20px;
+}
+
+.carousel-indicators button {
+  height: 6px !important;
+}
+.carousel-indicators .active {
+  background-color: #fcb72e;
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+  height: 0px;
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #2d317f;
+  border: 1px solid #2d317f;
+}
+
+/* xs, extra-small: 0px
+sm, small: 600px
+md, medium: 900px
+lg, large: 1200px
+xl, extra-large: 1536px */
+
+@media only screen and (max-width: 600px) {
+  .horizontal-safe-margin {
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+  .horizontal-safe-padding {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+  .vertical-safe-margin {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .vertical-safe-padding {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .section-safe-padding-top {
+    padding-top: 5px;
+  }
+  .section-safe-padding-bottom {
+    padding-bottom: 5px;
+  }
+  .section-safe-padding-left {
+    padding-left: 20px;
+  }
+  .section-safe-padding-right {
+    padding-right: 20px;
+  }
+  .section-safe-margin-top {
+    margin-top: 5px;
+  }
+  .section-safe-margin-bottom {
+    margin-bottom: 5px;
+  }
+}
+
+.MuiSvgIcon-root {
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  /* clip-path: polygon(50% 0%, 50% 0%, 100% 50%, 100% 50%, 50% 100%, 0% 50%);
+   */
+  /* clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); */
+  /* clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); */
+  /* clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); */
+  /* clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); */
+  /* clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); */
+  clip-path: circle(50% at 50% 50%);
+}
+
+.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root {
+  color: #afb0b8 !important;
+  font-size: 25px;
+  font-size: 42px;
+}
+.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.MuiStepIcon-root.Mui-active.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root {
+  color: #f18222 !important;
+}
+.MuiStepConnector-root.MuiStepConnector-vertical.Mui-active.css-1pe7n21-MuiStepConnector-root
+  .MuiStepConnector-line.MuiStepConnector-lineVertical.css-8t49rw-MuiStepConnector-line {
+  border-color: #f18222;
+}
+.css-1pe7n21-MuiStepConnector-root {
+  margin-left: 20px !important;
+}

@@ -56,7 +56,7 @@ export default function Index() {
             }}
           >
             {t.products_home.section_a.body.map((item, index) => (
-              <li>{item}</li>
+              <li key={index}>{item}</li>
             ))}
           </Box>
         </Box>
@@ -101,7 +101,7 @@ export default function Index() {
             }}
           >
             {t.products_home.section_b.body.map((item, index) => (
-              <li>{item}</li>
+              <li key={index}>{item}</li>
             ))}
           </Box>
         </Box>

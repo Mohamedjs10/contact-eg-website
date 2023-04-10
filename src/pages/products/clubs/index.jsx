@@ -59,8 +59,8 @@ export default function Index() {
             flexWrap: "wrap",
           }}
         >
-          {t.products_clubs.clubs.map((item) => (
-            <Box>
+          {t.products_clubs.clubs.map((item, index) => (
+            <Box key={index}>
               <Box
                 component="img"
                 src={item[1]}

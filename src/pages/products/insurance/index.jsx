@@ -89,9 +89,11 @@ export default function Index() {
               fontSize: "20px",
             }}
           >
-            {t.products_insurance_page.section_a[0].points.map((item) => (
-              <li>{item}</li>
-            ))}
+            {t.products_insurance_page.section_a[0].points.map(
+              (item, index) => (
+                <li key={index}>{item}</li>
+              )
+            )}
           </Box>
         </Box>
         <Box>
@@ -113,9 +115,11 @@ export default function Index() {
               fontSize: "20px",
             }}
           >
-            {t.products_insurance_page.section_a[0].points.map((item) => (
-              <li>{item}</li>
-            ))}
+            {t.products_insurance_page.section_a[0].points.map(
+              (item, index) => (
+                <li key={index}>{item}</li>
+              )
+            )}
           </Box>
         </Box>
         <Box>
@@ -137,9 +141,11 @@ export default function Index() {
               fontSize: "20px",
             }}
           >
-            {t.products_insurance_page.section_a[0].points.map((item) => (
-              <li>{item}</li>
-            ))}
+            {t.products_insurance_page.section_a[0].points.map(
+              (item, index) => (
+                <li key={index}>{item}</li>
+              )
+            )}
           </Box>
         </Box>
         <Box>
@@ -161,9 +167,11 @@ export default function Index() {
               fontSize: "20px",
             }}
           >
-            {t.products_insurance_page.section_a[0].points.map((item) => (
-              <li>{item}</li>
-            ))}
+            {t.products_insurance_page.section_a[0].points.map(
+              (item, index) => (
+                <li key={index}>{item}</li>
+              )
+            )}
           </Box>
         </Box>
       </Box>

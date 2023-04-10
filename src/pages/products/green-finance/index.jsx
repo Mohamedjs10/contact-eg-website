@@ -60,7 +60,7 @@ export default function Index() {
             }}
           >
             {t.products_leasing.section_a.body.map((item, index) => (
-              <li>{item}</li>
+              <li key={index}>{item}</li>
             ))}
           </Box>
         </Box>
@@ -95,8 +95,8 @@ export default function Index() {
               gap: 2,
             }}
           >
-            {t.products_leasing.section_b.list.map((item) => (
-              <>
+            {t.products_leasing.section_b.list.map((item, index) => (
+              <Box key={index}>
                 <Box
                   sx={{ display: "flex", gap: 2 }}
                   onMouseEnter={() => setState(item[2])}
@@ -121,7 +121,7 @@ export default function Index() {
                 >
                   {item[1]}
                 </Box>
-              </>
+              </Box>
             ))}
           </Box>
         </Box>

@@ -179,7 +179,12 @@ export default function Secondary_Navbar({ setIsOPen }) {
             <AccordionDetails sx={styles.sub_container}>
               {t.footer.section_b.financial_services_list1.map(
                 (item, index) => (
-                  <Box component={Link} href={item.url} sx={styles.link}>
+                  <Box
+                    component={Link}
+                    href={item.url}
+                    sx={styles.link}
+                    key={index}
+                  >
                     {item.name}
                   </Box>
                 )
@@ -199,7 +204,12 @@ export default function Secondary_Navbar({ setIsOPen }) {
             <AccordionDetails sx={styles.sub_container}>
               {t.footer.section_b.financial_services_list2.map(
                 (item, index) => (
-                  <Box component={Link} href={item.url} sx={styles.link}>
+                  <Box
+                    component={Link}
+                    href={item.url}
+                    sx={styles.link}
+                    key={index}
+                  >
                     {item.name}
                   </Box>
                 )
@@ -218,7 +228,12 @@ export default function Secondary_Navbar({ setIsOPen }) {
             </AccordionSummary>
             <AccordionDetails sx={styles.sub_container}>
               {t.footer.section_b.other_services_list.map((item, index) => (
-                <Box component={Link} href={item.url} sx={styles.link}>
+                <Box
+                  component={Link}
+                  href={item.url}
+                  sx={styles.link}
+                  key={index}
+                >
                   {item.name}
                 </Box>
               ))}
@@ -236,7 +251,12 @@ export default function Secondary_Navbar({ setIsOPen }) {
             </AccordionSummary>
             <AccordionDetails sx={styles.sub_container}>
               {t.footer.section_b.contact_list.map((item, index) => (
-                <Box component={Link} href={item.url} sx={styles.link}>
+                <Box
+                  component={Link}
+                  href={item.url}
+                  sx={styles.link}
+                  key={index}
+                >
                   {item.name}
                 </Box>
               ))}
@@ -254,7 +274,12 @@ export default function Secondary_Navbar({ setIsOPen }) {
             </AccordionSummary>
             <AccordionDetails sx={styles.sub_container}>
               {t.footer.section_b.company_list.map((item, index) => (
-                <Box component={Link} href={item.url} sx={styles.link}>
+                <Box
+                  component={Link}
+                  href={item.url}
+                  sx={styles.link}
+                  key={index}
+                >
                   {item.name}
                 </Box>
               ))}
@@ -270,7 +295,12 @@ export default function Secondary_Navbar({ setIsOPen }) {
             </AccordionSummary>
             <AccordionDetails sx={styles.sub_container}>
               {t.footer.section_b.policy_list.map((item, index) => (
-                <Box component={Link} href={item.url} sx={styles.link}>
+                <Box
+                  component={Link}
+                  href={item.url}
+                  sx={styles.link}
+                  key={index}
+                >
                   {item.name}
                 </Box>
               ))}
